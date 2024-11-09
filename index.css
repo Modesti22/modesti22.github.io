@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.imBox {
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about {
+        width: 50%;
+    }
+}
